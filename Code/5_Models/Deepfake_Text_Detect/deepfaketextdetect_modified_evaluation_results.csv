@@ -1,0 +1,2 @@
+Model,Test Type,Accuracy,F1 Score,AUROC
+DeepfakeTextDetect_Longformer_(Modified),External Test,0.705,0.745,0.793
