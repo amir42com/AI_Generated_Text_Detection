@@ -5,6 +5,9 @@ This repository contains the code and supplementary materials for the Master's t
 ## Thesis overview
 
 Modern language models such as GPT‑3.5, Mistral 7B and Google’s Gemini Pro can generate fluent text that is difficult to distinguish from human writing.  To enable reliable detection across languages and generation models, we:
+<p align="center">
+  <img src="figures/Dataset_Structure.jpg" alt="Datasets Structure Overview" width="700">
+</p>
 
 1. **Collected a balanced corpus** of 24 000 texts.  Human documents were drawn from reputable sources such as **Wikipedia** and **BBC News**, while AI‑generated documents were created using **GPT‑3.5‑Turbo‑0125**, **Mistral 7B** and **Gemini Pro** via two prompt styles:
    * **Topic:** generate text based on a given title and domain (e.g., Wikipedia or BBC).
